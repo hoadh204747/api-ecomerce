@@ -25,7 +25,7 @@ app.use(cors({
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify the allowed HTTP methods
     optionsSuccessStatus: 200,
     credentials: true, // Enable credentials (cookies, authorization headers, etc)
-    origin: ["https://client-ecomerce-three.vercel.app", "http://localhost:3001"]
+    origin: ["https://client-ecomerce-three.vercel.app", "https://admin-dashbord-inky.vercel.app/"]
 }));
 
 
